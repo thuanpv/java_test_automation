@@ -1,5 +1,11 @@
-# Test Automation for Java Program
-In this small project, I teach my students how to apply test automation to test programs written in Java. Specifically, I introduce to them the basic concepts in test automation including Fuzzing (my favourite topic :-)) and the tools/frameworks they can use such as JUnit, JUnit-QuickCheck, and JQF.
+# Test Automation for Java Programs
+In this small project, I teach my students how to apply test automation to improve the quality of programs written in Java. Specifically, I introduce to them the basic concepts in test automation including Fuzzing (my favourite topic :-)) and the tools/frameworks they can use such as JUnit, JUnit-QuickCheck, and JQF.
+
+# References
+In addition to the great documentations in [JUnit-QuickCheck](https://github.com/pholser/junit-quickcheck) and [JQF](https://github.com/rohanpadhye/JQF) repositories, I find the following wiki/blog posts/articles helpful
+- Docker overview: https://docs.docker.com/get-started/overview/
+- Unit testing with JUnit: https://www.vogella.com/tutorials/JUnit/article.html
+- An introduction to property-based testing using JUnit-QuickCheck: https://www.ontestautomation.com/an-introduction-to-property-based-testing-with-junit-quickcheck/
 
 # Build a Docker image
 First, you need to build a Docker image using the given Dockerfile. The Docker image has everything ready (e.g., Java JDK, JQF) for your experiments.
