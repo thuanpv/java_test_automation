@@ -54,5 +54,9 @@ To run fuzzing with JQF
 ```bash
 /jqf/bin/jqf-zest -c .:$(/jqf/scripts/classpath.sh) TriangleJQFTest testInvalidTriangle
 ```
+JQF automatically generates failure-triggering inputs and stores them in the folder fuzz-results/failures. To reproduce a failure, please run
+```bash
+/jqf/bin/jqf-repro TriangleJQFTest testInvalidTriangle fuzz-results/failures/id_000000
+```
 
 Enjoy Test Automation for Java!!!
