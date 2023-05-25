@@ -1,13 +1,13 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 
 # Install common dependencies
 RUN apt-get -y update && \
-    apt-get -y install sudo \ 
+    DEBIAN_FRONTEND=noninteractive apt-get -y install sudo \
     apt-utils \
     build-essential \
     git \
     vim \
-    openjdk-8-jdk openjdk-8-jre \
+    openjdk-11-jdk openjdk-11-jre \
     maven
 
 # Set up JQF
